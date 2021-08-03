@@ -15,9 +15,6 @@ namespace mikisan\core\util\router;
 use \mikisan\core\exception\InvalidParameterAccessException;
 use \mikisan\core\exception\NotInitializedException;
 
-require __DIR__ . "/subclasses/FETCHER.php";
-require __DIR__ . "/subclasses/ANALYZER.php";
-
 class EntryPoint
 {
     const WEB = "web", CLI = "cli";
